@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Card Game</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="script.js"></script>
+        <meta charset="UTF-8">
+        <style>
+        body {
+            text-align: center;
+        }
+ 
+       
+    </style>
+    </head>
+    <body>
+        <h1 class = "center" style="color: rgb(112, 218, 218);">The Accordian Leader Card Game</h2>
+            <h2 style="color: orchid;"> View the Rules and Objectives</h1>
+                <h5> The objective of the game is to have 5 cards left</h5>
+                <h5> A standard deck of 52 cards are used that are all layed out</h5>
+                <h3><strong>The play</strong> </h3>
+                <h6> Your last card is your leader card, it may be placed on top of the first, second, and third card on the left if any of them match the suit or the number.</h6>
+                <h2 style="color: red;"> WARNING! The Game is Hard!</h2>
+                <h6 style="color: red;"> The odds of winning the game is a 1/100 chance(I did not know this, sorry)!</h6>
+                <a class="btn btn-primary" href="https://bicyclecards.com/how-to-play/accordion">Rules</a>
+                <div>
+                    <canvas id="game" width="1900" height="750" style=" margin: 5px; border: 1px solid black;"></canvas>
+                  </div>
+        <button id="guess-button" class="btn btn-primary">
+            Play
+        </button>
+        <button id="first-button" class="btn btn-primary">
+            First left card
+        </button>
+        <button id="second-button" class="btn btn-primary">
+            Second left card
+        </button>
+        <button id="third-button" class="btn btn-primary">
+            Third left card
+        </button>
+    </body>
+</html>
